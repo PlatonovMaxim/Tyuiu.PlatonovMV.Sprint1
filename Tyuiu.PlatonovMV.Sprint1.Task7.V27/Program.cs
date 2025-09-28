@@ -18,7 +18,7 @@ class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
         Console.WriteLine("* Написать программу, которая вычисляет математическое выражение:         *");
-        Console.WriteLine("*      cos^2x + sin^2y     x*y - 12                                         *");
+        Console.WriteLine("*      cos^2x + sin^2y     x*y - 12                                       *");
         Console.WriteLine("* z = -------------- - -------------                                      *");
         Console.WriteLine("*       sin y + 1       15 + cos x                                        *");
         Console.WriteLine("*                                                                         *");

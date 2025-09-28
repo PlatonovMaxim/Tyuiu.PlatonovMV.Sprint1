@@ -7,28 +7,22 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task7.V27.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidCalculate()
+        public void ValidCalculate_ZeroCase()
         {
             DataService ds = new DataService();
-            double x = 0;
-            double y = 0;
-            double result = ds.Calculate(x, y);
-
-            double wait = 1.75;
-
-            Assert.AreEqual(wait, result);
+            double res = ds.Calculate(0, 0);
+            double expected = (Math.Cos(0 * 0) + Math.Sin(0 * 0)) / (Math.Sin(0) + 1) - (0 - 12) / (15 + Math.Cos(0));
+            expected = Math.Round(expected, 3);
+            Assert.AreEqual(expected, res);
         }
 
         [TestMethod]
-        public void ValidCalculate2()
+        public void ValidCalculate_X2Y4()
         {
             DataService ds = new DataService();
-            double x = 1;
-            double y = 1;
-            double result = ds.Calculate(x, y);
-
-            double wait = 1.251;
-            Assert.AreEqual(wait, result);
+            double res = ds.Calculate(2, 4);
+            double expected = -3.597;
+            Assert.AreEqual(expected, res);
         }
     }
 }
