@@ -12,10 +12,11 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task4.V20.Test
             DataService ds = new DataService();
             double x = 2;
             double y = 3;
-            double wait = 12.708; 
-            double res = ds.Calculate(x, y);
-            res = Math.Round(res, 3);
-            Assert.AreEqual(wait, res, 0.01); 
+
+            double res = ds.Calculate(x, y);                
+            double expected = (1 + x) / Math.Abs(x - Math.Sqrt(2 + y));  
+
+            Assert.AreEqual(Math.Round(expected, 3), Math.Round(res, 3));
         }
     }
 }
