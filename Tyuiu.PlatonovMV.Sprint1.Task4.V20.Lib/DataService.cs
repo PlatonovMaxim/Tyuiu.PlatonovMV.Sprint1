@@ -7,8 +7,9 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task4.V20.Lib
     {
         public double Calculate(double x, double y)
         {
-            // 1+x/|x-√(2+y)| 
-            return (1 + x) / Math.Abs(x - Math.Sqrt(2 + y)); 
+            //  1+x/|x-√(2+y)| 
+            double result = (1 + x) / Math.Abs(x - Math.Sqrt(2 + y));
+            return Math.Round(result, 3);
         }
     }
 }

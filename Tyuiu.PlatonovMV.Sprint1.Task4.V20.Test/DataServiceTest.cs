@@ -10,13 +10,13 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task4.V20.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            double x = 2;
-            double y = 3;
+            double x = 5;
+            double y = 5;
 
-            double res = ds.Calculate(x, y);                
-            double expected = (1 + x) / Math.Abs(x - Math.Sqrt(2 + y));  
+            double result = ds.Calculate(x, y);
+            double expected = 2.549;
 
-            Assert.AreEqual(Math.Round(expected, 3), Math.Round(res, 3));
+            Assert.AreEqual(expected, result);
         }
     }
 }
