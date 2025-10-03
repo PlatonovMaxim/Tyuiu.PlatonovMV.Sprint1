@@ -13,3 +13,4 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task2.V29.Test
         }
     }
 }
+//вызов метода на 60 делит равно 2 

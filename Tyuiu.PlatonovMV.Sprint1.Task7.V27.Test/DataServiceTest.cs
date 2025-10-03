@@ -26,3 +26,7 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task7.V27.Test
         }
     }
 }
+//   cos^2x + sin^2y     x*y - 12                                      
+// z = -------------- - -------------                                     
+//       sin y + 1       15 + cos x    
+//

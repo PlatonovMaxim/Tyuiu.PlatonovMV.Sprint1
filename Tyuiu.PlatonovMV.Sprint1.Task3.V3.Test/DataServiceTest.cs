@@ -15,4 +15,4 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task3.V3.Test
         }
     }
 }
-//
+//метод с числами 9 7.5 5

@@ -18,7 +18,7 @@ Console.WriteLine("*                                                            
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
 Console.WriteLine("***************************************************************************");
-int seconds;
+int seconds; 
 
 Console.WriteLine("Введите время в секундах (целое число):");
 seconds = Convert.ToInt32(Console.ReadLine());

@@ -9,7 +9,7 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task0.V28.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate();
+            var res = ds.Calculate(); //вызвали у ds метод калькулейт
             Assert.AreEqual(2, res);
         }
     }

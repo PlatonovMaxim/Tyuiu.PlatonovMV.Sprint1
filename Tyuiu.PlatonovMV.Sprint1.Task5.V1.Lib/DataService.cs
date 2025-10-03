@@ -12,3 +12,7 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task5.V1.Lib
         }
     }
 }
+
+//нужно целое число
+//чрез формулу √(x2-x1)^2+(y2-y1)^2 
+//

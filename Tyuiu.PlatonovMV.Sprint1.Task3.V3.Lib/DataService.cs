@@ -12,4 +12,5 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task3.V3.Lib
     }
 }
 
-//
+//округлить до трех
+//произведение сторон

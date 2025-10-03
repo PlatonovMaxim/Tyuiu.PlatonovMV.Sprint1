@@ -12,3 +12,5 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task6.V2.Lib
         }
     }
 }
+
+//минус не нашел плюс да

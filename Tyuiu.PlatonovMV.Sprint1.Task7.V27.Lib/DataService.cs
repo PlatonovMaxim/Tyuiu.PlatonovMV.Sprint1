@@ -9,9 +9,9 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task7.V27.Lib
         {
             // Формула: (cos(x²) + sin(y²)) / (sin y + 1) - (x*y - 12) / (15 + cos x)
 
-            double cosX2 = Math.Cos(x * x);    
+            double cosX2 = Math.Cos(x * x);  
             double sinY2 = Math.Sin(y * y);    
-            double sinY = Math.Sin(y);       
+            double sinY = Math.Sin(y);      
             double cosX = Math.Cos(x);        
 
             double numerator1 = cosX2 + sinY2;
@@ -27,3 +27,7 @@ namespace Tyuiu.PlatonovMV.Sprint1.Task7.V27.Lib
         }
     }
 }
+//   cos^2x + sin^2y     x*y - 12                                      
+// z = -------------- - -------------                                     
+//       sin y + 1       15 + cos x    
+//

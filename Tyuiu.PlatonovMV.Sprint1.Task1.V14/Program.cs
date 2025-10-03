@@ -37,4 +37,4 @@ Console.WriteLine(ds.Calculate(a, b, c));
 Console.ReadLine();
 
 //
-//
+//конверт из текста в число чтоб програмам робила

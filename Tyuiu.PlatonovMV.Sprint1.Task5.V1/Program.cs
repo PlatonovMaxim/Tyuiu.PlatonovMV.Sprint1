@@ -39,9 +39,10 @@ class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        int distance = ds.DistanceBetweenDots(x1, y1, x2, y2);
+        int distance = ds.DistanceBetweenDots(x1, y1, x2, y2); 
         Console.WriteLine($"Расстояние между точками: {distance}");
 
         Console.ReadLine();
     }
 }
+//передача координат

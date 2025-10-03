@@ -1,4 +1,5 @@
 ﻿using Tyuiu.PlatonovMV.Sprint1.Task0.V28.Lib;
+//чтобы использовать методы дата севриса например калькулейт
 DataService ds = new DataService();
 
 Console.Title = "Спринт #1 | Выполнил: Платонов М. В. | ИСТНб-25-1";
@@ -22,7 +23,7 @@ Console.WriteLine("*************************************************************
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine("***************************************************************************");
 
-
+//вызвали метод калькулейт и печатаем рузельтат.
 Console.WriteLine(ds.Calculate());
 
 Console.ReadLine();
